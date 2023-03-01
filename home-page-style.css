@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 5996px;
+    background: #FFFFFF;
+    border: 0.1px solid red;
+}
+
+/* Начало редактирования header*/
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #232536;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar img {
+    margin-right: 621px;
+}
+
+.links-list ul {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-right: 32px;
+}
+
+.links-list li {
+    list-style: none;
+}
+
+.navbar-button {
+    width: 179px;
+    height: 56px;
+    background: #FFFFFF;
+}
