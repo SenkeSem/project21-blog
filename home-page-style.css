@@ -47,10 +47,40 @@ header {
 
 .links-list li {
     list-style: none;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .navbar-button {
     width: 179px;
     height: 56px;
     background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-button p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+}
+
+/* Начало редактирования home*/
+
+.home {
+    position: absolute;
+    width: 1440px;
+    height: 720px;
+    right: 0px;
+    top: 80px;
+    background-image: url(img-for-home/men.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.home img {
+    transform: scale(-1, 1); /* Отражает изображение по горизонтали */
 }
