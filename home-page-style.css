@@ -74,13 +74,28 @@ header {
     height: 720px;
     right: 0px;
     top: 80px;
-    background-image: url(img-for-home/men.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .home img {
-    transform: scale(-1, 1); /* Отражает изображение по горизонтали */
+    background-image: url(img-for-home/men.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-info-container {
+    position: absolute;
+    width: 804px;
+    height: 400px;
+    left: 80px;
+    top: 128px;
+    border: 1px solid snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.home .navbar-button {
+    background: #FFD050;
 }
