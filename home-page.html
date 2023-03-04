@@ -7,7 +7,7 @@
     <title>Blog Home Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Sen:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home-page-style.css">
     <link rel="stylesheet" href="fonts-style.css">
 </head>
@@ -31,14 +31,24 @@
     <div class="home">
         <img src="img-for-home/Overlay.png" alt="Overlay" width="1440px" height="720px">
         <div class="home-info-container">
-            <p>Posted on startup</p>
-            <h1>Step-by-step guide to choosing great font pairs</h1>
-            <p>By James West  |  May 23, 2022 </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <p class="font-inter-500 posted-on-startup">Posted on <span class="font-inter-900">startup</span></p>
+            <h1 class="font-sen-700">Step-by-step guide to choosing great font pairs</h1>
+            <p class="font-inter-400 James-West">By <span>James West</span>  |  May 23, 2022 </p>
+            <p class="font-inter-400 size-16-28">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
             <div class="navbar-button">
                 <p class="font-sen-700">Read More ></p>
             </div>
         </div>
+    </div>
+    <div class="featured-posts">
+        <div class="featured-post">
+            <h2 class="font-sen-700">Featured Post</h2>
+            <div class="post-wrapper">
+                <img src="" alt="">
+                <p>By John Doe   l   May 23, 2022</p>
+            </div>
+        </div>
+        <div class="all-posts"></div>
     </div>
 </body>
 </html>

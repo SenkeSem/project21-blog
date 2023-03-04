@@ -18,3 +18,17 @@
     font-weight: 500;
     color: #FFFFFF;
 }
+
+.font-inter-600 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.font-inter-900 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+}

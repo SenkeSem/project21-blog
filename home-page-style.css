@@ -89,13 +89,85 @@ header {
     height: 400px;
     left: 80px;
     top: 128px;
-    border: 1px solid snow;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: #FFFFFF;
 }
 
 .home .navbar-button {
     background: #FFD050;
+}
+
+.home-info-container .posted-on-startup {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.home-info-container h1 {
+    width: 803px;
+    height: 128px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}
+
+.home-info-container .James-West span {
+    color: #FFD050;
+}
+
+.home-info-container .James-West {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.home-info-container .size-16-28 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+/* Начало редактирования Featured Posts */
+
+.featured-posts {
+    position: absolute;
+    width: 1282px;
+    height: 804px;
+    left: 80px;
+    top: 928px;
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-post {
+    width: 733px;
+    height: 804px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.featured-post h2 {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+.post-wrapper {
+    width: 733px;
+    height: 724px;
+    border: 1px solid rgba(109, 110, 118, 0.1);
+}
+
+
+.all-posts {
+    width: 517px;
+    height: 804px;
+    border: 1px solid green;
 }
