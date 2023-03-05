@@ -94,7 +94,7 @@ header {
     color: #FFFFFF;
 }
 
-.home .navbar-button {
+.home .navbar-button, .post-wrapper .navbar-button{
     background: #FFD050;
 }
 
@@ -162,7 +162,10 @@ header {
 .post-wrapper {
     width: 733px;
     height: 724px;
-    border: 1px solid rgba(109, 110, 118, 0.1);
+    border: 1px solid rgba(109, 110, 118, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -170,4 +173,13 @@ header {
     width: 517px;
     height: 804px;
     border: 1px solid green;
+}
+
+.size-14-20 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.post-wrapper .size-14-20 {
+    color: #4C4C4C;
 }
