@@ -263,3 +263,75 @@ header {
     font-size: 24px;
     line-height: 32px;
 }
+
+/* Начало редактирования about-us-and-our-mission*/
+
+.about-us-and-our-mission {
+    position: absolute;
+    width: 1280px;
+    height: 523px;
+    left: 80px;
+    top: 1860px;
+}
+
+.about-us-and-our-mission .pattern {
+    width: 1280px;
+    height: 23px;
+    display: flex;
+}
+
+.pattern .purple-color{
+    width: 282px;
+    height: 23px;
+    background-color: #592EA9;
+}
+
+.pattern .white-color {
+    width: 282px;
+    height: 23px;
+    background-color: #FFFFFF;
+}
+
+.pattern .yellow-color {
+    width: 716px;
+    height: 23px;
+    background-color: #FFD050;
+}
+
+.about-us-and-our-mission .background {
+    background-color: #F4F0F8;
+    width: 1280px;
+    height: 500px;
+}
+
+.medium-gray-color {
+    color: #6D6E76;
+}
+
+.background .about-us {
+    position: absolute;
+    width: 515px;
+    height: 308px;
+    border: 1px solid red;
+    top: 96px;
+    left: 80px;
+}
+
+.size-16-20 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.about-us .font-inter-600 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.about-us h2 {
+    width: 494px;
+    height: 144px;
+}
+.size-18-32 {
+    font-size: 18px;
+    line-height: 32px;
+}
