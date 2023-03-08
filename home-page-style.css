@@ -312,7 +312,6 @@ header {
     position: absolute;
     width: 515px;
     height: 308px;
-    border: 1px solid red;
     top: 96px;
     left: 80px;
 }
@@ -322,16 +321,84 @@ header {
     line-height: 20px;
 }
 
-.about-us .font-inter-600 {
+.about-us .font-inter-600, .our-mission .font-inter-600 {
     letter-spacing: 3px;
     text-transform: uppercase;
+    margin-bottom: 24px;
 }
 
 .about-us h2 {
     width: 494px;
     height: 144px;
+    margin-bottom: 16px;
 }
 .size-18-32 {
     font-size: 18px;
     line-height: 32px;
+    margin-top: 16px;
+}
+
+.our-mission {
+    position: absolute;
+    width: 516px;
+    height: auto;
+    right: 108px;
+    top: 98px;
+}
+
+.size-28-40 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.our-mission h3 {
+    width: 481px;
+    height: 80px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+/* Начало редактирования Choose a catagory*/
+
+.choose-a-catagory {
+    position: absolute;
+    width: 1280px;
+    height: 324px;
+    left: 80px;
+    top: 2511px;
+    border: 1px solid red;
+}
+
+.choose-a-catagory h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.categories-container {
+    width: 1280px;
+    height: 228px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-container img {
+    background-color: #FBF6EA;
+    margin-bottom: 16px;
+}
+
+.categories-container h3 {
+    margin-bottom: 4px;
+}
+
+img[alt="Icon2.svg"] {
+    padding: 12px;
+}
+
+.categories-item {
+    box-sizing: border-box;
+    padding: 32px;
+    width: 296px;
+    height: 228px;
+    border: 1px solid rgba(109, 110, 118, 0.3);
 }
