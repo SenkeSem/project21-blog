@@ -367,7 +367,6 @@ header {
     height: 324px;
     left: 80px;
     top: 2511px;
-    border: 1px solid red;
 }
 
 .choose-a-catagory h2 {
@@ -401,4 +400,100 @@ img[alt="Icon2.svg"] {
     width: 296px;
     height: 228px;
     border: 1px solid rgba(109, 110, 118, 0.3);
+}
+
+.categories-item:hover {
+    cursor: pointer;
+    background-color: #FFD050;
+}
+
+/* Начало редактирования Special post*/
+
+.special-post {
+    position: absolute;
+    width: 1280px;
+    height: 705px;
+    left: 80px;
+    top: 2963px;
+}
+
+.special-post-content {
+    box-sizing: border-box;
+    padding: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 706px;
+    height: 584px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.special-post-content .size-16-20 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+    margin-bottom: 24px;
+}
+
+.size-48-64 {
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-bottom: 16px;
+}
+
+.special-post-content .size-16-28 {
+    margin-bottom: 32px;
+}
+
+.special-post-content .navbar-button {
+    background-color: #FFD050;
+    width: 269px;
+    height: 56px;
+}
+
+/* Начало редактирования List of authors*/
+
+.list-of-authors {
+    position: absolute;
+    width: 1280px;
+    height: 420px;
+    left: 80px;
+    top: 3796px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-of-authors h2 {
+    text-align: center;
+}
+
+.list-of-authors .item-container {
+    width: 1280px;
+    height: 324px;
+}
+
+.author-item {
+    width: 296px;
+    height: 324px;
+    background: #F4F4F4;
+    box-sizing: border-box;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-item .social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
+    height: 16px;
+}
+
+.author-item img, .author-item p {
+    margin-bottom: 20px;
 }
