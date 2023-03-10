@@ -474,6 +474,9 @@ img[alt="Icon2.svg"] {
 .list-of-authors .item-container {
     width: 1280px;
     height: 324px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .author-item {
@@ -496,4 +499,105 @@ img[alt="Icon2.svg"] {
 
 .author-item img, .author-item p {
     margin-bottom: 20px;
+}
+
+.author-item:hover {
+    cursor: pointer;
+    background-color: #FBF6EA;
+}
+
+/* Начало редактирования logo-component */
+
+.logo-component {
+    position: absolute;
+    width: 1237px;
+    height: 52px;
+    left: 94px;
+    top: 4312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-in {
+    width: 136px;
+    height: 52px;
+}
+
+.featured-in p {
+    opacity: 0.6;
+}
+
+.logo-wrapper {
+    width: 1015px;
+    height: 32px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Начало редактирования Testimonials */
+
+.testimonials {
+    position: absolute;
+    width: 1280px;
+    height: 464px;
+    left: 80px;
+    top: 4460px;
+    background-color: #FBF6EA;
+}
+
+.testimonials-heading {
+    position: absolute;
+    width: 349px;
+    height: 200px;
+    top: 92px;
+    left: 112px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-heading .size-16-20 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.testimonials-heading h2 {
+    margin-bottom: 16px;
+}
+
+.messages {
+    position: absolute;
+    width: 469px;
+    height: 128px;
+    top: 80px;
+    right: 174px;
+}
+
+.testimonials .line {
+    width: 0;
+    height: 310px;
+    position: absolute;
+    top: 80px;
+    left: 541px;
+    border: 1px solid rgba(109, 110, 118, 0.4);
+}
+
+.profile {
+    position: absolute;
+    bottom: 75px;
+    right: 386px;
+    width: 257px;
+    height: 60px;
+    display: flex;
+}
+
+.profile img {
+    margin-right: 16px;
+}
+
+.profile-name-and-city {
+    display: flex;
+    flex-direction: column;
 }
