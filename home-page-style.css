@@ -8,7 +8,6 @@ body {
     width: 1440px;
     height: 5996px;
     background: #FFFFFF;
-    border: 0.1px solid red;
 }
 
 /* Начало редактирования header*/
@@ -600,4 +599,107 @@ img[alt="Icon2.svg"] {
 .profile-name-and-city {
     display: flex;
     flex-direction: column;
+}
+
+.back-button {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 197px;
+    bottom: 87px;
+}
+
+.next-button {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: 111px;
+    bottom: 80px;
+}
+
+/* Начало редактирования join-our-team */
+
+.join-our-team {
+    position: absolute;
+    width: 414px;
+    height: 256px;
+    left: 513px;
+    top: 5052px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-our-team .navbar-button {
+    background-color: #FFD050;
+}
+
+.join-our-team h2 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.join-our-team .size-16-28 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* Начало редактирования footer */
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    left: 0px;
+    top: 5436px;
+    background-color: #232536;
+}
+
+.footer-content {
+    position: absolute;
+    width: 1280px;
+    height: 445px;
+    left: 80px;
+    top: 59px;
+}
+
+.footer-content .logo-and-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-menu ul {
+    margin: 0;
+}
+
+.cta {
+    position: absolute;
+    width: 1280px;
+    height: 256px;
+    left: 80px;
+    top: 144px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.contact-informations {
+    position: absolute;
+    width: 361px;
+    height: 56px;
+    left: 80px;
+    top: 448px;
+}
+
+.contact-informations p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .social-wrapper {
+    position: absolute;
+    width: 144px;
+    height: 16px;
+    left: 1216px;
+    top: 460px;
+    display: flex;
+    justify-content: space-between;
 }
