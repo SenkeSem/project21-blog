@@ -1,0 +1,12 @@
+.blog-header {
+    position: absolute;
+    width: 1440px;
+    height: 519px;
+    left: 0px;
+    top: 80px;
+    background: #F4F0F8;
+}
+
+.blog-header span {
+    color: #592EA9;
+}
