@@ -1,3 +1,5 @@
+/* Начало редактирования blog-header */
+
 .blog-header {
     position: absolute;
     width: 1440px;
@@ -9,4 +11,94 @@
 
 .blog-header span {
     color: #592EA9;
+}
+
+.blog-header .home-info-container {
+    position: absolute;
+    width: 624px;
+    height: 332px;
+    left: 80px;
+    top: 94px;
+}
+
+.home-info-container .size-16-20 {
+    margin-bottom: 20px;
+}
+
+.home-info-container .size-36-48, .home-info-container .size-14-20 {
+    margin-bottom: 16px;
+}
+
+.home-info-container .size-16-28 {
+    margin-bottom: 32px;
+}
+
+.blog-header img {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+/* Начало редактирования all-posts */
+
+.size-48-64 {
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+.all-posts {
+    position: absolute;
+    width: 1282px;
+    height: 96px;
+    left: 80px;
+    top: 663px;
+    border-bottom: 1px solid #6D6E76;
+}
+
+/* Начало редактирования blogs cards */
+
+.blogs-cards {
+    position: absolute;
+    width: 1147px;
+    height: 1846px;
+    left: 80px;
+    top: 823px;
+    border: 1px solid red;
+}
+
+.card {
+    width: 1146px;
+    height: 318px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-card {
+    width: 624px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-card .size-16-20{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heading-card h2 {
+    margin-bottom: 16px;
+}
+
+/* Начало редактирования choose-a-catagory */
+
+.choose-a-catagory {
+    position: absolute;
+    width: 1280px;
+    height: 228px;
+    left: 80px;
+    top: 2933px;
 }
