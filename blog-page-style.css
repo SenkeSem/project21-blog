@@ -1,3 +1,7 @@
+body {
+    height: 4233px;
+}
+
 /* Начало редактирования blog-header */
 
 .blog-header {
@@ -65,7 +69,9 @@
     height: 1846px;
     left: 80px;
     top: 823px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card {
@@ -93,7 +99,47 @@
     margin-bottom: 16px;
 }
 
+/* Редактирование Pagination */
+
+.pagination {
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 647px;
+    top: 2733px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagination .prev-button {
+    width: 73px;
+    height: 32px;
+}
+
+.pagination .next-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 84px;
+    height: 40px;
+}
+
+.size-24-32 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
 /* Начало редактирования choose-a-catagory */
+
+.all-categories-heading {
+    margin-bottom: 48px;
+    position: absolute;
+    width: 218px;
+    height: 48px;
+    right: 1141px;
+    top: 2837px;
+}
 
 .choose-a-catagory {
     position: absolute;
@@ -101,4 +147,18 @@
     height: 228px;
     left: 80px;
     top: 2933px;
+}
+
+/* Редактирование join-our-team */
+
+.join-our-team {
+    left: 513px;
+    top: 3289px;
+}
+
+/* Редактироване footer */
+
+footer {
+    left: 0px;
+    top: 3673px;
 }

@@ -1,0 +1,35 @@
+body {
+    height: 4346px;
+}
+
+/* редактирование blog-inner-header */
+
+.blog-inner-header {
+    position: absolute;
+    width: 768px;
+    height: 282px;
+    left: 336px;
+    top: 208px;
+    border: 1px solid red;
+}
+
+.name-and-info {
+    width: 288px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.name-and-info-container {
+    width: 224px;
+    height: 64px;
+}
+
+.name-and-info img {
+    margin-top: 5px;
+}
+
+.blog-inner-header h1 {
+    margin-bottom: 34px;
+}
