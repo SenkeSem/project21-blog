@@ -1,0 +1,69 @@
+body {
+    height: 2588px;
+}
+
+footer {
+    left: 0px;
+    top: 2028px;
+}
+
+.blog-category-hero {
+    position: absolute;
+    width: 1440px;
+    height: 348px;
+    left: 0px;
+    top: 80px;
+    background-color: #F4F0F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-category-hero .header-container {
+    position: absolute;
+    width: 515px;
+    height: 188px;
+    text-align: center;
+}
+
+.header-container .size-16-20 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* редактирование category-section */
+
+.category-section {
+    position: absolute;
+    width: 1282px;
+    height: 1344px;
+    left: 79px;
+    top: 556px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-section .item-container {
+    width: 838px;
+    height: 1344px;
+    border: 1px solid green;
+}
+
+.category-section .categories-container {
+    width: 298px;
+    height: 840px;
+    border: 1px solid blue;
+}
+
+.item-container .category-item {
+    width: 838px;
+    height: 312px;
+    border: 1px solid orange;
+}
+
+.category-item .content {
+    width: 512px;
+    height: 236px;
+    border: 1px solid salmon;
+}

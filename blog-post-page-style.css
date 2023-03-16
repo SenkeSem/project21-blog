@@ -113,4 +113,18 @@ img[alt="photo-of-woman"] {
     margin: 16px 0;
 }
 
-/**/
+/* редактирование join-our-team */
+
+.join-our-team {
+    left: 505px;
+    top: 3402px;
+}
+
+
+/* редактирование footer*/
+
+footer {
+    position: absolute;
+    left: 0px;
+    top: 3786px;
+}
