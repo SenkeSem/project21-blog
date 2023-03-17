@@ -1,0 +1,33 @@
+body {
+    height: 2184px;
+}
+
+footer {
+    left: 0px;
+    top: 1624px;
+}
+
+.privacy-policy-header {
+    position: absolute;
+    width: 1440px;
+    height: 256px;
+    left: 0px;
+    top: 80px;
+    background: #F4F0F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-48-64 {
+    margin-bottom: 32px;
+}
+
+.privacy-policy-content {
+    position: absolute;
+    width: 768px;
+    height: 1032px;
+    left: 336px;
+    top: 464px;
+}

@@ -2,8 +2,25 @@
     margin-bottom: 16px;
 }
 
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-24 {
+    margin-bottom: 24px;
+}
+
 .margin-bottom-32 {
     margin-bottom: 32px;
+}
+
+.margin-bottom-48 {
+    margin-bottom: 48px;
+}
+
+.size-14-32 {
+    font-size: 14px;
+    line-height: 32px;
 }
 
 .size-56-64 {
