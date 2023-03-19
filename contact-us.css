@@ -6,3 +6,133 @@ footer {
     left: 0px;
     top: 1348px;
 }
+
+/* редактирование contact-us-heading*/
+
+.contact-us-heading {
+    position: absolute;
+    width: 768px;
+    height: 176px;
+    left: 336px;
+    top: 208px;
+    text-align: center;
+}
+
+.contact-us-heading .size-16-20 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+}
+
+.contact-us-heading h1 {
+    margin-bottom: 24px;
+}
+
+/* редактирование purple-container */
+
+.purple-container {
+    position: absolute;
+    width: 768px;
+    height: 240px;
+    left: 336px;
+    top: 448px;
+    background: #592EA9;
+    color: #FFFFFF;
+}
+
+.working-hour {
+    position: absolute;
+    width: 294px;
+    height: 144px;
+    left: 64px;
+    top: 48px;
+}
+
+.purple-contact-us {
+    position: absolute;
+    width: 294.35px;
+    height: 138px;
+    left: 400px;
+    top: 48px;
+}
+
+.purple-container h5 {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.purple-container p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.6;
+}
+
+.purple-container p:last-child {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.purple-container .line {
+    width: 294px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.1;
+    margin-bottom: 16px;
+}
+
+.purple-container p:first-child {
+    margin-bottom: 16px;
+}
+
+/* редактирование form */
+
+.contact-us-form {
+    position: absolute;
+    width: 768px;
+    height: 500px;
+    left: 336px;
+    top: 720px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us-form .navbar-button {
+    width: auto;
+    height: 64px;
+    background: #FFD050;
+}
+
+.contact-us-form .navbar-button p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+input {
+    height: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+input[placeholder="Message"] {
+    height: 144px;
+}
+
+input::placeholder {
+    color: #232536;
+}
+
+input /* нужно правильно расположить placeholder message */
