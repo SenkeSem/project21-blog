@@ -1,0 +1,47 @@
+body {
+    height: 2278px;
+}
+
+footer {
+    left: 0px;
+    top: 1718px;
+}
+
+/* редактирование author-header */
+
+.author-header {
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: 80px;
+    background: #F4F0F8;
+}
+
+.author-header img[alt="author-men"] {
+    position: absolute;
+    top: 128px;
+    left: 208px;
+}
+
+.author-header-heading {
+    position: absolute;
+    width: 669px;
+    height: 236px;
+    right: 280px;
+    top: 130px;
+}
+
+.author-header-heading h1 {
+    margin-bottom: 24px;
+}
+
+.author-header .social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 112px;
+    height: 16px;
+    right: 837px;
+    bottom: 144px;
+}

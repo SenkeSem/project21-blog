@@ -98,7 +98,6 @@ footer {
     height: 500px;
     left: 336px;
     top: 720px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -129,10 +128,9 @@ input {
 
 input[placeholder="Message"] {
     height: 144px;
+    padding-bottom: 92px;  /* Долго тупил прежде чем понял, как спозиционировать ебучий placeholder :) */
 }
 
 input::placeholder {
     color: #232536;
 }
-
-input /* нужно правильно расположить placeholder message */
