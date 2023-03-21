@@ -45,3 +45,48 @@ footer {
     right: 837px;
     bottom: 144px;
 }
+
+.author-header .pattern {
+    width: 1024px;
+    height: 24px;
+    position: absolute;
+    left: 208px;
+    bottom: 0;
+    display: flex;
+}
+
+/* редактирование my-blog */
+
+.my-blog {
+    position: absolute;
+    width: 1024px;
+    height: 832px;
+    left: 208px;
+    top: 758px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.my-blog h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.item-blog {
+    width: 1024px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-blog-content {
+    width: 580px;
+    height: 208px;
+}
+
+.item-blog-content .size-16-20 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
