@@ -1,0 +1,152 @@
+body {
+    height: 4530px;
+}
+
+footer {
+    top: 3970px;
+}
+
+/* редактирование about-us-header */
+
+.about-us-header {
+    box-sizing: border-box;
+    padding: 64px;
+    z-index: 2;
+    position: absolute;
+    width: 624px;
+    height: 356px;
+    left: 189px;
+    top: 160px;
+    background: #FFFFFF;
+}
+
+.about-us-header p {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.content-about-us-header {
+    position: absolute;
+    width: 477px;
+    height: 112px;
+    right: 118px;
+    top: 262px;
+}
+
+/* редактирование overview */
+
+.overview {
+    position: absolute;
+    width: 1280px;
+    height: 444px;
+    left: 80px;
+    top: 453px;
+    background-image: url(img-for-about-us-page/Overview.png);
+    background-size: cover;
+}
+
+/* редактирование mision-vision */
+
+.mision-vision {
+    position: absolute;
+    width: 1280px;
+    height: 441px;
+    left: 80px;
+    top: 897px;
+    background: #F4F0F8;
+}
+
+.our-mission-block {
+    position: absolute;
+    width: 516px;
+    height: 249px;
+    top: 128px;
+    left: 108px;
+}
+
+.our-vision-block {
+    position: absolute;
+    width: 516px;
+    height: 249px;
+    right: 108px;
+    top: 128px;
+}
+
+.mision-vision p:first-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.mision-vision h3 {
+    width: 450px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.mision-vision p:last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+/* редактирование know-more-about-our-team */
+
+.know-more-about-our-team {
+    position: absolute;
+    width: 1280px;
+    height: 480px;
+    left: 80px;
+    top: 1466px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.know-more-content {
+    width: 519px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.know-more-image {
+    width: 681px;
+    height: 480px;
+}
+
+.know-more-image img[alt="shapes"] {
+    position: absolute;
+    top: 114px;
+    left: 599px;
+}
+
+.know-more-image img[alt="hands"] {
+    margin-left: 57px;
+}
+
+/* редактирование why-we-strated */
+
+.why-we-strated {
+    position: absolute;
+    width: 1207px;
+    height: 517px;
+    left: 80px;
+    top: 2074px;
+    border: 1px solid red;
+}
