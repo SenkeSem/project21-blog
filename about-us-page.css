@@ -148,5 +148,61 @@ footer {
     height: 517px;
     left: 80px;
     top: 2074px;
-    border: 1px solid red;
+}
+
+.why-we-strated-image {
+    width: 624px;
+    height: 517px;
+}
+
+.why-we-strated-content {
+    width: 519px;
+    height: 316px;
+    position: absolute;
+    top: 82px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img[alt="circle"] {
+    position: absolute;
+    left: 107px;
+    bottom: 0;
+}
+
+/* редактирование about-us-list-of-authors */
+
+.about-us-list-of-authors {
+    position: absolute;
+    width: 1280px;
+    height: 776px;
+    left: 80px;
+    top: 2682px;
+}
+
+.about-us-list-of-authors h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.about-us-list-of-authors .item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.big-item-container {
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* редактирование Join our team */
+
+.join-our-team {
+    left: 513px;
+    top: 3586px;
 }
